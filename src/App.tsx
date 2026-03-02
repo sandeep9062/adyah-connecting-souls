@@ -11,8 +11,9 @@ import MindSoul from "./pages/MindSoul";
 import YogaSanctuary from "./pages/YogaSanctuary";
 import BookJourney from "./pages/BookJourney";
 import NotFound from "./pages/NotFound";
-import WelcomePopup from "./components/InquiryWidget";
+import WelcomePopup from "./components/EnquiryWidget";
 import BreastCare from "./pages/BreastCare";
+import BreathingTechniques from "./pages/Breathing";
 
 const queryClient = new QueryClient();
 
@@ -27,7 +28,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/mental-wellness" element={<MentalWellnessService />} />
-          <Route path="/breast-care" element={<BreastCare />} />
+          <Route
+            path="/breathing-techniques"
+            element={<BreathingTechniques />}
+          />
           <Route path="/mind-soul" element={<MindSoul />} />
           <Route path="/yoga" element={<YogaSanctuary />} />
           <Route path="/book" element={<BookJourney />} />

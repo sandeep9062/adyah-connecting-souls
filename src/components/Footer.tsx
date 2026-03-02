@@ -36,10 +36,10 @@ const Footer = () => {
                 Mind & Soul
               </Link>
               <Link
-                to="/breast-care"
+                to="/breathing-techniques"
                 className="font-body text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm"
               >
-                Breast Care
+                Breathing techniques
               </Link>
               <Link
                 to="/yoga"

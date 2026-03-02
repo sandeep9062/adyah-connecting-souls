@@ -7,7 +7,7 @@ const navLinks = [
   { to: "/", label: "Home" },
   { to: "/mental-wellness", label: "Mental Wellness" },
   { to: "/mind-soul", label: "Mind & Soul" },
-  { to: "/breast-care", label: "Breast Care" },
+  { to: "/breathing-techniques", label: "Breathing Techniques" },
   { to: "/yoga", label: "Yoga Sanctuary" },
   { to: "/book", label: "Book Your Journey" },
 ];

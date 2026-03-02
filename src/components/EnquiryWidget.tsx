@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { X, MessageCircle, CheckCircle } from "lucide-react";
 
-const InquiryWidget = () => {
+const EnquiryWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [token, setToken] = useState("");
@@ -45,7 +45,7 @@ const InquiryWidget = () => {
           size={28}
           className="group-hover:rotate-12 transition-transform"
         />
-        <span className="font-bold pr-2 hidden md:block">Inquire Now</span>
+        <span className="font-bold pr-2 hidden md:block">Enquire Now</span>
       </button>
 
       {/* 2. POPUP MODAL */}
@@ -187,4 +187,4 @@ const InquiryWidget = () => {
   );
 };
 
-export default InquiryWidget;
+export default EnquiryWidget;
